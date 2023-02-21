@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1666" y="-230"/>
         </scene>
-        <!--Bracket View Controller-->
+        <!--New Bracket View Controller-->
         <scene sceneID="DXH-u1-w7p">
             <objects>
-                <viewController id="OLo-Zd-5A9" customClass="BracketViewController" customModule="ScrollViewNotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OLo-Zd-5A9" customClass="NewBracketViewController" customModule="ScrollViewNotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y9M-UO-KeH">
                         <rect key="frame" x="0.0" y="0.0" width="2400" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -543,7 +543,72 @@
                             <constraint firstItem="dir-L6-TUx" firstAttribute="leading" secondItem="vSG-eu-anJ" secondAttribute="leading" id="p9t-47-LQi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QTU-VC-vSP"/>
                     <size key="freeformSize" width="2400" height="1200"/>
+                    <connections>
+                        <outlet property="f1" destination="yG0-rc-61W" id="nSy-K8-H8Y"/>
+                        <outlet property="f2" destination="XnE-PF-8QG" id="qXZ-2F-BAN"/>
+                        <outlet property="r1t1" destination="o5F-n9-PCl" id="8oN-De-4RV"/>
+                        <outlet property="r1t10" destination="E5f-rT-Oqx" id="4tt-Lp-ElR"/>
+                        <outlet property="r1t11" destination="OYe-ta-zx1" id="zvK-cz-fRy"/>
+                        <outlet property="r1t12" destination="wa2-17-pBZ" id="jDB-Sb-04B"/>
+                        <outlet property="r1t13" destination="ha7-Sc-dhZ" id="tsG-ay-eFJ"/>
+                        <outlet property="r1t14" destination="ZKb-eS-R2S" id="Q7G-rw-M5y"/>
+                        <outlet property="r1t15" destination="4jE-Xk-u2l" id="7md-mm-fsq"/>
+                        <outlet property="r1t16" destination="FpJ-MH-vx0" id="fc2-Jt-rao"/>
+                        <outlet property="r1t17" destination="lEf-aY-AfM" id="xQR-hh-aMj"/>
+                        <outlet property="r1t18" destination="2wH-bu-23k" id="uju-DT-x0C"/>
+                        <outlet property="r1t19" destination="FlB-M2-2iQ" id="PbN-GD-R6Y"/>
+                        <outlet property="r1t2" destination="ZkB-bA-V1A" id="Ldt-yy-mt7"/>
+                        <outlet property="r1t20" destination="Qnj-b8-j3X" id="xsm-uP-Cft"/>
+                        <outlet property="r1t21" destination="xbr-An-QIA" id="bB6-Q3-71s"/>
+                        <outlet property="r1t22" destination="hk9-gX-qdv" id="9gi-AI-vAF"/>
+                        <outlet property="r1t23" destination="Huv-BF-ogl" id="45y-UM-pOh"/>
+                        <outlet property="r1t24" destination="0Fl-HC-Ygz" id="BqL-0E-G3V"/>
+                        <outlet property="r1t25" destination="q2j-lg-4g8" id="qTh-c3-pjb"/>
+                        <outlet property="r1t26" destination="nyc-ZQ-AH3" id="fcm-1k-PWA"/>
+                        <outlet property="r1t27" destination="vIh-3M-gbX" id="iRs-e0-JiH"/>
+                        <outlet property="r1t28" destination="nzc-9p-yA3" id="ghW-mg-n4m"/>
+                        <outlet property="r1t29" destination="C3W-6i-DXy" id="Bq5-rT-ZiJ"/>
+                        <outlet property="r1t3" destination="D1b-Wd-r1y" id="Qh6-kp-kZJ"/>
+                        <outlet property="r1t30" destination="lj6-iQ-s2x" id="IJz-el-LCb"/>
+                        <outlet property="r1t31" destination="t2m-HE-CYD" id="pN4-37-4qq"/>
+                        <outlet property="r1t32" destination="rpG-5S-VtX" id="jzY-VO-vn9"/>
+                        <outlet property="r1t4" destination="Ec1-n9-G9y" id="Vfc-Uc-YJq"/>
+                        <outlet property="r1t5" destination="ZbW-nc-yeM" id="oiv-Pw-zCp"/>
+                        <outlet property="r1t6" destination="6oG-ZK-6wx" id="vGr-QW-zNM"/>
+                        <outlet property="r1t7" destination="t5T-bf-uto" id="W7Y-df-Teo"/>
+                        <outlet property="r1t8" destination="3wy-JV-xus" id="8Bk-bf-9Yd"/>
+                        <outlet property="r1t9" destination="nQc-nT-lJ6" id="puM-ap-R2J"/>
+                        <outlet property="r2t1" destination="6RG-IS-qE5" id="ZRM-Rd-GmY"/>
+                        <outlet property="r2t10" destination="4fW-oz-7mt" id="dom-h7-kun"/>
+                        <outlet property="r2t11" destination="ojl-1m-7Le" id="9MK-SB-lXy"/>
+                        <outlet property="r2t12" destination="ngg-gL-gal" id="7n0-Xg-AFE"/>
+                        <outlet property="r2t13" destination="MYF-yS-KON" id="AsG-Rd-Kqx"/>
+                        <outlet property="r2t14" destination="SHT-Hr-4h8" id="FOj-dF-hpv"/>
+                        <outlet property="r2t15" destination="Sp8-kI-W4v" id="3V5-xw-jal"/>
+                        <outlet property="r2t16" destination="Q2y-Yk-GcR" id="oCC-kG-fpD"/>
+                        <outlet property="r2t2" destination="Tgl-WN-L9y" id="GDx-BW-VEJ"/>
+                        <outlet property="r2t3" destination="nI0-jo-U0G" id="TiE-Ao-TUG"/>
+                        <outlet property="r2t4" destination="zk5-nK-hm6" id="hu1-yv-lPs"/>
+                        <outlet property="r2t5" destination="Pho-if-Qyi" id="xl8-6i-8Cr"/>
+                        <outlet property="r2t6" destination="IdF-W6-pgy" id="mNr-BV-nbt"/>
+                        <outlet property="r2t7" destination="0Cr-mh-dCF" id="90W-Df-NiK"/>
+                        <outlet property="r2t8" destination="GXY-nq-64t" id="jig-yI-6N6"/>
+                        <outlet property="r2t9" destination="ONI-kA-57Y" id="sHb-Z2-BRW"/>
+                        <outlet property="r3t1" destination="GQD-Yz-6pF" id="seD-On-RSi"/>
+                        <outlet property="r3t2" destination="dc3-0d-orA" id="ceh-9n-8nq"/>
+                        <outlet property="r3t3" destination="FCm-ad-b7z" id="Gto-Gk-u0S"/>
+                        <outlet property="r3t4" destination="Qzm-M6-NNg" id="VPA-6i-MsX"/>
+                        <outlet property="r3t5" destination="Xsn-NK-u7L" id="02J-VY-8Le"/>
+                        <outlet property="r3t6" destination="eb6-C1-yTC" id="hxk-AL-zSg"/>
+                        <outlet property="r3t7" destination="3uo-cc-VyF" id="Ent-jM-nri"/>
+                        <outlet property="r3t8" destination="j0M-le-3Ii" id="0W1-Z5-y3Z"/>
+                        <outlet property="r4t1" destination="rWF-ZQ-aZ3" id="a2h-fw-fJi"/>
+                        <outlet property="r4t2" destination="QcT-OR-OUF" id="K9e-u8-SYS"/>
+                        <outlet property="r4t3" destination="fBV-5y-PH3" id="Ppy-zE-mb1"/>
+                        <outlet property="r4t4" destination="nLD-bN-Fmr" id="1fm-MI-kf8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Edi-1P-vJR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -17,6 +17,7 @@
 		D840E3C32993DE1B00478E25 /* ScrollViewNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3C22993DE1B00478E25 /* ScrollViewNotesTests.swift */; };
 		D840E3CD2993DE1B00478E25 /* ScrollViewNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3CC2993DE1B00478E25 /* ScrollViewNotesUITests.swift */; };
 		D840E3CF2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3CE2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift */; };
+		D8F498E229A4FEFD006D93C2 /* NewBracketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F498E129A4FEFD006D93C2 /* NewBracketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D840E3C82993DE1B00478E25 /* ScrollViewNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D840E3CC2993DE1B00478E25 /* ScrollViewNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewNotesUITests.swift; sourceTree = "<group>"; };
 		D840E3CE2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8F498E129A4FEFD006D93C2 /* NewBracketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBracketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D840E3AA2993DE1A00478E25 /* SceneDelegate.swift */,
 				D840E3AC2993DE1A00478E25 /* ViewController.swift */,
 				D840E3AE2993DE1A00478E25 /* Main.storyboard */,
+				D8F498E129A4FEFD006D93C2 /* NewBracketViewController.swift */,
 				D840E3B42993DE1B00478E25 /* Assets.xcassets */,
 				D840E3B62993DE1B00478E25 /* LaunchScreen.storyboard */,
 				D840E3B92993DE1B00478E25 /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D840E3AD2993DE1A00478E25 /* ViewController.swift in Sources */,
+				D8F498E229A4FEFD006D93C2 /* NewBracketViewController.swift in Sources */,
 				D840E3A92993DE1A00478E25 /* AppDelegate.swift in Sources */,
 				D840E3AB2993DE1A00478E25 /* SceneDelegate.swift in Sources */,
 				D840E3B32993DE1A00478E25 /* ScrollViewNotes.xcdatamodeld in Sources */,

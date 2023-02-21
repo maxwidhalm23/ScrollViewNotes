@@ -25,6 +25,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @IBAction func bracketAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "bracketSegue", sender: nil)
     }
     
     
