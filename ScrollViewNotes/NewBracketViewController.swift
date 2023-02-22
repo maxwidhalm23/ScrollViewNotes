@@ -7,7 +7,13 @@
 
 import UIKit
 
+class BracketClass {
+    
+}
+
 class NewBracketViewController: UIViewController {
+    
+    var theBracket = [BracketClass]()
     
     // LEFT SIDE OUTLETS
     @IBOutlet weak var r1t1: UITextField!
@@ -84,14 +90,21 @@ class NewBracketViewController: UIViewController {
     @IBOutlet weak var r1t32: UITextField!
     
     
+    @IBOutlet var round1Cells: [UITextField]!
+    
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         populateTeams()
         
     }
     
     func populateTeams() {
-        
+        for i in 0..<round1Cells.count {
+            round1Cells[i].text = "butt \(i+1)"
+        }
     }
     
 

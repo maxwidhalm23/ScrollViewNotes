@@ -608,6 +608,38 @@
                         <outlet property="r4t2" destination="QcT-OR-OUF" id="K9e-u8-SYS"/>
                         <outlet property="r4t3" destination="fBV-5y-PH3" id="Ppy-zE-mb1"/>
                         <outlet property="r4t4" destination="nLD-bN-Fmr" id="1fm-MI-kf8"/>
+                        <outletCollection property="round1Cells" destination="o5F-n9-PCl" collectionClass="NSMutableArray" id="CV3-Oa-Giy"/>
+                        <outletCollection property="round1Cells" destination="ZkB-bA-V1A" collectionClass="NSMutableArray" id="evK-2D-2iy"/>
+                        <outletCollection property="round1Cells" destination="D1b-Wd-r1y" collectionClass="NSMutableArray" id="JGH-Vo-iap"/>
+                        <outletCollection property="round1Cells" destination="Ec1-n9-G9y" collectionClass="NSMutableArray" id="U1Q-df-Elg"/>
+                        <outletCollection property="round1Cells" destination="ZbW-nc-yeM" collectionClass="NSMutableArray" id="p7C-X4-PG4"/>
+                        <outletCollection property="round1Cells" destination="6oG-ZK-6wx" collectionClass="NSMutableArray" id="xcP-aK-VPI"/>
+                        <outletCollection property="round1Cells" destination="t5T-bf-uto" collectionClass="NSMutableArray" id="x2L-Ck-maG"/>
+                        <outletCollection property="round1Cells" destination="3wy-JV-xus" collectionClass="NSMutableArray" id="AIT-3c-NPZ"/>
+                        <outletCollection property="round1Cells" destination="nQc-nT-lJ6" collectionClass="NSMutableArray" id="GF4-9U-bsB"/>
+                        <outletCollection property="round1Cells" destination="E5f-rT-Oqx" collectionClass="NSMutableArray" id="paq-Yv-rQQ"/>
+                        <outletCollection property="round1Cells" destination="OYe-ta-zx1" collectionClass="NSMutableArray" id="Hri-Sh-0ic"/>
+                        <outletCollection property="round1Cells" destination="wa2-17-pBZ" collectionClass="NSMutableArray" id="hNt-NN-fxs"/>
+                        <outletCollection property="round1Cells" destination="ha7-Sc-dhZ" collectionClass="NSMutableArray" id="A2j-er-tQ5"/>
+                        <outletCollection property="round1Cells" destination="ZKb-eS-R2S" collectionClass="NSMutableArray" id="E4l-kJ-rIz"/>
+                        <outletCollection property="round1Cells" destination="4jE-Xk-u2l" collectionClass="NSMutableArray" id="25V-Lc-bFm"/>
+                        <outletCollection property="round1Cells" destination="FpJ-MH-vx0" collectionClass="NSMutableArray" id="4fZ-t7-9ab"/>
+                        <outletCollection property="round1Cells" destination="lEf-aY-AfM" collectionClass="NSMutableArray" id="XwW-LQ-4uY"/>
+                        <outletCollection property="round1Cells" destination="2wH-bu-23k" collectionClass="NSMutableArray" id="Bi8-wB-Tn2"/>
+                        <outletCollection property="round1Cells" destination="FlB-M2-2iQ" collectionClass="NSMutableArray" id="xzH-1h-9zQ"/>
+                        <outletCollection property="round1Cells" destination="Qnj-b8-j3X" collectionClass="NSMutableArray" id="nsW-Cg-NjH"/>
+                        <outletCollection property="round1Cells" destination="xbr-An-QIA" collectionClass="NSMutableArray" id="fJj-1b-0bB"/>
+                        <outletCollection property="round1Cells" destination="hk9-gX-qdv" collectionClass="NSMutableArray" id="0UJ-0A-qLe"/>
+                        <outletCollection property="round1Cells" destination="Huv-BF-ogl" collectionClass="NSMutableArray" id="TV7-Af-u28"/>
+                        <outletCollection property="round1Cells" destination="0Fl-HC-Ygz" collectionClass="NSMutableArray" id="5ax-PD-kE5"/>
+                        <outletCollection property="round1Cells" destination="q2j-lg-4g8" collectionClass="NSMutableArray" id="GRT-uR-dYB"/>
+                        <outletCollection property="round1Cells" destination="nyc-ZQ-AH3" collectionClass="NSMutableArray" id="Du5-dI-DYW"/>
+                        <outletCollection property="round1Cells" destination="vIh-3M-gbX" collectionClass="NSMutableArray" id="1TS-7T-0a7"/>
+                        <outletCollection property="round1Cells" destination="nzc-9p-yA3" collectionClass="NSMutableArray" id="qYa-FR-Apa"/>
+                        <outletCollection property="round1Cells" destination="C3W-6i-DXy" collectionClass="NSMutableArray" id="wfk-SD-ftv"/>
+                        <outletCollection property="round1Cells" destination="lj6-iQ-s2x" collectionClass="NSMutableArray" id="bVt-IP-xrO"/>
+                        <outletCollection property="round1Cells" destination="t2m-HE-CYD" collectionClass="NSMutableArray" id="2fB-BY-3hI"/>
+                        <outletCollection property="round1Cells" destination="rpG-5S-VtX" collectionClass="NSMutableArray" id="dhb-v1-Toe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Edi-1P-vJR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
