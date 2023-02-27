@@ -92,18 +92,80 @@ class NewBracketViewController: UIViewController {
     
     @IBOutlet var round1Cells: [UITextField]!
     
+    @IBOutlet var round2Cells: [UITextField]!
+    
+    @IBOutlet var round3Cells: [UITextField]!
+    
+    @IBOutlet var round4Cells: [UITextField]!
+    
+    @IBOutlet var finalsCells: [UITextField]!
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        populateTeams()
-        
+        populateRound1()
+        populateRound2()
+        populateRound3()
+        populateRound4()
+        populateFinals()
     }
     
-    func populateTeams() {
-        for i in 0..<round1Cells.count {
-            round1Cells[i].text = "butt \(i+1)"
+    // theBracket.roundMatches[0].matches[0].homeTeam
+    func populateRound1() {
+//        for var i = 0 in 0..<round1Cells.count {
+//            round1Cells[i].text = theBracket.roundMatches[1].matches[i].homeTeam
+//            round1Cells[i+1].text = theBracket.roundMatches[1].matches[i].awayTeam
+//
+//        }
+        print("yuh")
+    }
+    
+    func populateRound2() {
+        for i in 0..<round2Cells.count {
+            if theBracket.roundMatches[1].matches[i].isWinner {
+                round1Cells[i].text = theBracket.roundMatches[1].matches[i].homeTeam
+            }
+            else
+            {
+                round1Cells[i].text = theBracket.roundMatches[1].matches[i].awayTeam
+            }
+        }
+    }
+    
+    func populateRound3() {
+        for i in 0..<round3Cells.count {
+            if theBracket.roundMatches[2].matches[i].isWinner {
+                round1Cells[i].text = theBracket.roundMatches[2].matches[i].homeTeam
+            }
+            else
+            {
+                round1Cells[i].text = theBracket.roundMatches[2].matches[i].awayTeam
+            }
+        }
+    }
+    
+    func populateRound4() {
+        for i in 0..<round4Cells.count {
+            if theBracket.roundMatches[3].matches[i].isWinner {
+                round1Cells[i].text = theBracket.roundMatches[3].matches[i].homeTeam
+            }
+            else
+            {
+                round1Cells[i].text = theBracket.roundMatches[3].matches[i].awayTeam
+            }
+        }
+    }
+    
+    func populateFinals() {
+        for i in 0..<finalsCells.count {
+            if theBracket.roundMatches[4].matches[i].isWinner {
+                round1Cells[i].text = theBracket.roundMatches[4].matches[i].homeTeam
+            }
+            else
+            {
+                round1Cells[i].text = theBracket.roundMatches[4].matches[i].awayTeam
+            }
         }
     }
     
