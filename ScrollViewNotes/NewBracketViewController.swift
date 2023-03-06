@@ -102,42 +102,25 @@ class NewBracketViewController: UIViewController {
         
         super.viewDidLoad()
         
-//        if currentRound == 1 {
-//            populateRound1()
-//        } else if currentRound == 2 {
-//            populateRound1()
-//            populateRound2()
-//        } else if currentRound == 3 {
-//            populateRound1()
-//            populateRound2()
-//            populateRound3()
-//        } else if currentRound == 4 {
-//            populateRound1()
-//            populateRound2()
-//            populateRound3()
-//            populateRound4()
-//        } else if currentRound == 5 {
-//            populateRound1()
-//            populateRound2()
-//            populateRound3()
-//            populateRound4()
-//            populateFinals()
-//        }
         populateRound1()
         populateRound2()
-        populateRound3()
-        populateRound4()
-        populateFinals()
+//        populateRound3()
+//        populateRound4()
+//        populateFinals()
         
     }
     
     // theBracket.roundMatches[0].matches[0].homeTeam
     func populateRound1() {
-//        for var i = 0 in 0..<round1Cells.count {
-//            round1Cells[i].text = theBracket.roundMatches[1].matches[i].homeTeam
-//            round1Cells[i+1].text = theBracket.roundMatches[1].matches[i].awayTeam
-//
-//        }
+        var i = 0 // cells index
+        var n = 0 // match index
+        while i < round1Cells.count {
+            round1Cells[i].text = "\(theBracket!.rounds[0]!.matches[n].homeTeam)"
+            i+=1
+            round1Cells[i].text = "\(theBracket!.rounds[0]!.matches[n].awayTeam)"
+            i+=1
+            n+=1
+        }
         print("yuh")
     }
     
