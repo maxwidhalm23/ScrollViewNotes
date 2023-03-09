@@ -17,6 +17,9 @@
 		D840E3C32993DE1B00478E25 /* ScrollViewNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3C22993DE1B00478E25 /* ScrollViewNotesTests.swift */; };
 		D840E3CD2993DE1B00478E25 /* ScrollViewNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3CC2993DE1B00478E25 /* ScrollViewNotesUITests.swift */; };
 		D840E3CF2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D840E3CE2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift */; };
+		D85B0A6C29BA1A5D00D82BB4 /* Bracket16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0A6B29BA1A5D00D82BB4 /* Bracket16ViewController.swift */; };
+		D85B0A6E29BA1DE000D82BB4 /* Bracket8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0A6D29BA1DE000D82BB4 /* Bracket8ViewController.swift */; };
+		D85B0A7029BA1E7C00D82BB4 /* Bracket4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B0A6F29BA1E7C00D82BB4 /* Bracket4ViewController.swift */; };
 		D899874D29AF89FB00FE9B8F /* roundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899874C29AF89FB00FE9B8F /* roundClass.swift */; };
 		D899874F29AF8A1E00FE9B8F /* matchUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899874E29AF8A1E00FE9B8F /* matchUp.swift */; };
 		D899875129AF8A2C00FE9B8F /* BracketObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899875029AF8A2C00FE9B8F /* BracketObject.swift */; };
@@ -55,6 +58,9 @@
 		D840E3C82993DE1B00478E25 /* ScrollViewNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D840E3CC2993DE1B00478E25 /* ScrollViewNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewNotesUITests.swift; sourceTree = "<group>"; };
 		D840E3CE2993DE1B00478E25 /* ScrollViewNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D85B0A6B29BA1A5D00D82BB4 /* Bracket16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bracket16ViewController.swift; sourceTree = "<group>"; };
+		D85B0A6D29BA1DE000D82BB4 /* Bracket8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bracket8ViewController.swift; sourceTree = "<group>"; };
+		D85B0A6F29BA1E7C00D82BB4 /* Bracket4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bracket4ViewController.swift; sourceTree = "<group>"; };
 		D899874C29AF89FB00FE9B8F /* roundClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundClass.swift; sourceTree = "<group>"; };
 		D899874E29AF8A1E00FE9B8F /* matchUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = matchUp.swift; sourceTree = "<group>"; };
 		D899875029AF8A2C00FE9B8F /* BracketObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BracketObject.swift; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 		D840E39C2993DE1A00478E25 = {
 			isa = PBXGroup;
 			children = (
+				D85B0A6D29BA1DE000D82BB4 /* Bracket8ViewController.swift */,
+				D85B0A6F29BA1E7C00D82BB4 /* Bracket4ViewController.swift */,
+				D85B0A6B29BA1A5D00D82BB4 /* Bracket16ViewController.swift */,
 				D840E3A72993DE1A00478E25 /* ScrollViewNotes */,
 				D840E3C12993DE1B00478E25 /* ScrollViewNotesTests */,
 				D840E3CB2993DE1B00478E25 /* ScrollViewNotesUITests */,
@@ -274,10 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D840E3AD2993DE1A00478E25 /* ViewController.swift in Sources */,
+				D85B0A7029BA1E7C00D82BB4 /* Bracket4ViewController.swift in Sources */,
+				D85B0A6C29BA1A5D00D82BB4 /* Bracket16ViewController.swift in Sources */,
 				D899875129AF8A2C00FE9B8F /* BracketObject.swift in Sources */,
 				D8F498E229A4FEFD006D93C2 /* NewBracketViewController.swift in Sources */,
 				D840E3A92993DE1A00478E25 /* AppDelegate.swift in Sources */,
 				D840E3AB2993DE1A00478E25 /* SceneDelegate.swift in Sources */,
+				D85B0A6E29BA1DE000D82BB4 /* Bracket8ViewController.swift in Sources */,
 				D840E3B32993DE1A00478E25 /* ScrollViewNotes.xcdatamodeld in Sources */,
 				D899874D29AF89FB00FE9B8F /* roundClass.swift in Sources */,
 				D899874F29AF8A1E00FE9B8F /* matchUp.swift in Sources */,
